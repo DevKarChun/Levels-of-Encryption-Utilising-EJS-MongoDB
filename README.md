@@ -2,6 +2,9 @@
 
 This project aims to explore various tiers of security measures in a database, which encompass the following levels:
 
+- Item 1
+- Item 2
+
 *Registration of users with usernames and passwords.
 *Encryption of the database.
 *MD5 Password hashing.
