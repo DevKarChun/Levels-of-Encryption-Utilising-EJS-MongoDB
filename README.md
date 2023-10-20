@@ -24,7 +24,7 @@ In both the registration and login processes, the password is transformed into a
 
 ## Level 4 - Bcrypt password salting and hashing
 
-To be Continued
+Substituting MD5 with Bcrypt for updating the current password fields before storing them in the database. When logging in, the password is compared using the Bcrypt "compare" function to verify if the data input via body parser matches the hashed password stored in the database.
 
 ## Level 5 - Utilization of Passport.js for managing cookies and sessions
 
