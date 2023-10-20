@@ -16,4 +16,4 @@ The fundamental principles of user data utilization involve the use of email and
 
 ## Level 2 - Encryption of the database
 
-The password data is encrypted using mongoose-encryption. The data will be encrypted during the .save() method and decrypted using the find() method. This can be examined in the level2encryption.js file.
+The password data is encrypted through mongoose-encryption, with the encryption occurring during the .save() method and decryption during the find() method. A secret key is employed for encrypting and decrypting specific fields within the document, as detailed in the following section. This can be assessed within the level2encryption.js file.
