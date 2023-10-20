@@ -2,12 +2,12 @@
 
 This project aims to explore various tiers of security measures in a database, which encompass the following levels:
 
-Registration of users with usernames and passwords.
-Encryption of the database.
-MD5 Password hashing.
-Password salting and hashing Bcrypt.
-Utilization of Passport.js for managing cookies and sessions.
-Implementation of OAuth 2.0 in conjunction with Google for enhanced security.
+*Registration of users with usernames and passwords.
+*Encryption of the database.
+*MD5 Password hashing.
+*Password salting and hashing Bcrypt.
+*Utilization of Passport.js for managing cookies and sessions.
+*Implementation of OAuth 2.0 in conjunction with Google for enhanced security.
 
 
 ## Level 1 - Registration of users with usernames and passwords
