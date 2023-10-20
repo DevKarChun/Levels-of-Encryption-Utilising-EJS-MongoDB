@@ -21,3 +21,15 @@ The password data is encrypted through mongoose-encryption, with the encryption 
 ## Level 3 - MD5 Password hashing
 
 In both the registration and login processes, the password is transformed into a hashed password. However, each password can be identical, just as if a password were merely a change of language. This can be examined in the level3hashing.js file.
+
+## Level 4 - Bcrypt password salting and hashing
+
+To be Continued
+
+## Level 5 - Utilization of Passport.js for managing cookies and sessions
+
+To be Continued
+
+## Level 6 - Implementation of OAuth 2.0 in conjunction with Google for enhanced security
+
+To be Continued
