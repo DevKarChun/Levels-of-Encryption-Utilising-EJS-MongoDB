@@ -1,4 +1,4 @@
-//Passport.js & Cookies and Sessions
+//Oauth Google & Facebook
 
 import bodyParser from "body-parser";
 import express from "express";
