@@ -28,7 +28,7 @@ Substituting MD5 with Bcrypt for updating the current password fields before sto
 
 ## Level 5 - Utilisation of Passport.js and managing cookies and sessions
 
-Using Passport.js for serializing and deserializing user registration and login authentication, with session expiration set up in Passport when the session is terminated. The logout route is also integrated into this section, allowing users to utilize the logout function as part of the authentication process. If a user is authenticated, they can automatically access http://localhost:3000/secrets without the need for the login process. However, if they are not authenticated, they will be redirected to their current page, such as the register or login page.
+Utilizing Passport.js for the serialization and deserialization of user registration and login authentication, along with configuring session expiration through Passport when the session is ended. The logout route is also integrated in this section, allowing users to employ the logout function as a part of the authentication process. If a user is authenticated, they can automatically access http://localhost:3000/secrets without the necessity to go through the login process. However, if they are not authenticated, they will be redirected to their current page, such as the register or login page. Additionally, when the server restarts, the cookies are cleared, ensuring that authenticated users do not need to re-login every time, even though they are authenticated.
 
 ## Level 6 - Implementation of OAuth 2.0 in conjunction with Google for enhanced security
 
