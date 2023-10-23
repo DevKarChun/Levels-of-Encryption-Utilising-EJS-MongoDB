@@ -32,7 +32,7 @@ Utilizing Passport.js for the serialization and deserialization of user registra
 
 ## Level 6 - Implementation of OAuth 2.0 in conjunction with Google for enhanced security
 
-To be Continued
+Employing Passport.js with Google OAuth 2.0, a new application is established via the Google Developer Console. By integrating the Google strategy and inputting the clientID and clientSecret generated in Google Developer Tools, users can manage authentication. Furthermore, following the implementation of Google Authentication, Facebook OAuth authentication has also been incorporated.
 
 ## Complete Web Application
 
