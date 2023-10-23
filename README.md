@@ -36,4 +36,4 @@ Employing Passport.js with Google OAuth 2.0, a new application is established vi
 
 ## Complete Web Application
 
-To be Continued
+The fully implemented authentication and user-updated secrets can now be assessed in the "complete.js" file. When a user registers an account and submits a new secret, it can now be assessed by all users.
