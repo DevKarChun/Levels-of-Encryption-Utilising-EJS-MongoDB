@@ -24,11 +24,11 @@ In both the registration and login processes, the password is transformed into a
 
 ## Level 4 - Bcrypt password salting and hashing
 
-Substituting MD5 with Bcrypt for updating the current password fields before storing them in the database. When logging in, the password is compared using the Bcrypt "compare" function to verify if the data input via body parser matches the hashed password stored in the database.
+Substituting MD5 with Bcrypt for updating the current password fields before storing them in the database. When logging in, the password is compared using the Bcrypt "compare" function to verify if the data input via body parser matches the hashed password stored in the database. This can be examined in the level4bcrypthashing.js file.
 
 ## Level 5 - Utilisation of Passport.js and managing cookies and sessions
 
-Utilizing Passport.js for the serialization and deserialization of user registration and login authentication, along with configuring session expiration through Passport when the session is ended. The logout route is also integrated in this section, allowing users to employ the logout function as a part of the authentication process. If a user is authenticated, they can automatically access http://localhost:3000/secrets without the necessity to go through the login process. However, if they are not authenticated, they will be redirected to their current page, such as the register or login page. Additionally, when the server restarts, the cookies are cleared, ensuring that authenticated users do not need to re-login every time, even though they are authenticated.
+Utilizing Passport.js for the serialization and deserialization of user registration and login authentication, along with configuring session expiration through Passport when the session is ended. The logout route is also integrated in this section, allowing users to employ the logout function as a part of the authentication process. If a user is authenticated, they can automatically access http://localhost:3000/secrets without the necessity to go through the login process. However, if they are not authenticated, they will be redirected to their current page, such as the register or login page. Additionally, when the server restarts, the cookies are cleared, ensuring that authenticated users do not need to re-login every time, even though they are authenticated. This can be examined in the level5passportwithcookiesandsessions.js file.
 
 ## Level 6 - Implementation of OAuth 2.0 in conjunction with Google for enhanced security
 
